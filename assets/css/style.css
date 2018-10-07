@@ -1,0 +1,90 @@
+#racetrack {
+	/*background: url(../images/bg1.jpg) center left repeat-x;*/
+	height: 500px;	
+	border-right: dashed 10px white;
+	box-sizing: border-box;
+
+
+	align-items: flex-end;
+  animation: animatedBackground 2s linear infinite;
+  background:
+    url("../images/bg1.jpg")
+    center
+    left
+    repeat-x;
+   
+    
+  /*background-size: contain;*/
+  /*display: flex;*/
+/*  flex: 1;
+  height: 25em;
+  justify-content: center;
+  margin-bottom: 1em;
+  overflow: hidden;
+  position: relative;*/
+}
+
+.bike {
+	display: block;
+	position: relative;
+	height: 95px;
+}
+
+#bike1 {
+	top: 30px;
+}
+#bike2 {
+	top: 35px;
+}
+#bike3 {
+	top: 70px;
+}
+#bike4 {
+	top: 70px;
+}
+
+#raceInfoContainer {
+	width: 100%;
+	margin: 0 auto;
+	background: #333;
+	height: 100px;
+}
+
+#resulth {
+	color: white;
+	text-transform: uppercase;
+	border-bottom: solid 1px white;
+	padding: 0 0;
+} 
+
+.raceInfo {
+	font-size: 18px;
+	/*font-weight: bold;*/
+	color: white;
+	width: 50%;
+	/*float: left;*/
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+
+
+@keyframes animatedBackground {
+  from { background-position: 100% 0; }
+  to { background-position: 0 0; }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
